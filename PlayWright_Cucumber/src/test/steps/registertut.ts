@@ -50,7 +50,7 @@ Given('User clicks privacy policy checkbox', async function (this:CustomWorld) {
 When('User click on the continue button', async function (this:CustomWorld) {
     await this.page.locator("//input[@value='Continue']").click();  
 });
-Then('Registration should be success'{ timeout: 50000 }, async function (this:CustomWorld) {
+Then('Registration should be success',{ timeout: 50000 }, async function (this:CustomWorld) {
     await expect(this.page.getByText('Your Account Has Been Created!')).toBeVisible();
   
 });
