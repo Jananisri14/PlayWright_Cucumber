@@ -1,7 +1,7 @@
 const report = require("multiple-cucumber-html-reporter");
 report.generate({
-  jsonDir: "report.ts",
-  reportPath: "./",
+  jsonDir: "reports",
+  reportPath: "reports/html",
   reportName: "Playwright BDD Report",
   pageTitle: "BookCart App test report",
   displayDuration: false,
