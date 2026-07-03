@@ -6,7 +6,7 @@ Background:
 Scenario: Registration should be success
     And User enter the firstname as "subha"
     And User enter the lastname as "raja"
-    And User enter the email as "subha0306@gmail.com"
+    And User enter the email as "subha36@gmail.com"
     And User enter the telephone as "5687676182"
     And User enter the password as "subha@123"
     And User enter the cpassword as "subha@123"
