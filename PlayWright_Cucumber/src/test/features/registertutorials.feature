@@ -7,7 +7,7 @@ Scenario: Registration should be success
     And User enter the firstname as "palani"
     And User enter the lastname as "raja"
     And User enter the email as "palani123@gmail.com"
-    And User enter the telephone as "5687676182"
+    And User enter the telephone as "5616676123"
     And User enter the password as "palani@123"
     And User enter the cpassword as "palani@123"
     And User clicks privacy policy checkbox
